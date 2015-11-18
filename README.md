@@ -1,9 +1,9 @@
 # Form_test
 Test of a submit and clear button in Shiny app
 
-The app has a submit and clear button to allow repeated entry of data by the user.   The real app is connected to a Google Sheet which accumulates records; it also creates a SurveyMonkey survey.
+The example app has a submit and clear button to allow repeated entry of data by the user.   The real app is connected to a Google Sheet which accumulates records; it also creates a SurveyMonkey survey; all that functionality is working.
 
-What I expect to have happen:
+What I expect to have happen in the example app:
 After the Clear button is clicked, the shinyjs::reset function clears the data field.   From the help file:
 
 "Reset any input element back to its original value. You can either reset one specific input at a time by providing the id of a shiny input, or reset all inputs within an HTML tag by providing the id of an HTML tag.
