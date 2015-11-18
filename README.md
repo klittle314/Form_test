@@ -1,5 +1,6 @@
 # Form_test
 Test of a submit and clear button in Shiny app
+
 The app has a submit and clear button to allow repeated entry of data by the user.   The real app is connected to a Google Sheet which accumulates records; it also creates a SurveyMonkey survey.
 
 What I expect to have happen:
